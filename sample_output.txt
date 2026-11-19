@@ -1,0 +1,154 @@
+Welcome to the Data Analyzer and Transformer Program
+
+==========================================================
+   Welcome to the Data Analyzer and Transformer Program
+==========================================================
+Main Menu:
+ 1.  Input Data
+ 2.  Display Data Summary (Built-in Functions)
+ 3.  Calculate Factorial / Fibonacci (Recursion)
+ 4.  Filter Data by Threshold (Lambda + filter)
+ 5.  Transform Data (Lambda + map)
+ 6.  Sort Data
+ 7.  Display Dataset Statistics (Return Multiple Values)
+ 8.  Advanced Operations (*args, **kwargs, duplicates, unique)
+ 9.  Show Function Documentation (__doc__)
+10.  Display 2D Grid (if 2D)
+11.  Exit Program
+==========================================================
+Please enter your choice: 1
+
+--- Input Data ---
+1. Enter 1D array manually
+2. Enter 2D array manually
+3. Use sample 1D data
+4. Use sample 2D data
+5. Go Back
+Enter your choice: 1
+Enter data for a 1D array (separated by spaces): 34 12 56 78 43 21 90
+Data has been stored successfully!
+
+Press Enter to continue...
+
+==========================================================
+Please enter your choice: 2
+
+Data Summary (built-in functions):
+  Total elements    : 7
+  Minimum value     : 12
+  Maximum value     : 90
+  Sum of all values : 334
+  Average value     : 47.71
+  Sorted (preview)  : [12, 21, 34, 43, 56] ...
+  Data type         : 1D
+
+Press Enter to continue...
+
+==========================================================
+Please enter your choice: 3
+
+--- Recursion Demonstration ---
+1. Factorial
+2. Fibonacci
+3. Go Back
+Enter your choice: 1
+Enter a number to calculate its factorial: 5
+Factorial of 5 is: 120
+
+Press Enter to continue...
+
+==========================================================
+Please enter your choice: 4
+Enter a threshold value to filter data: 50
+
+Filter mode:
+1. Values >= threshold
+2. Values <  threshold
+Enter your choice: 1
+
+Filtered Data (values >= 50):
+56, 78, 90
+
+Press Enter to continue...
+
+==========================================================
+Please enter your choice: 5
+
+--- Transform Data (Lambda + map) ---
+1. Square each value
+2. Double each value
+3. Multiply by a custom factor
+4. Add a custom constant
+5. Convert all values to strings
+Enter your choice: 2
+
+Transformed Data (doubled):
+[68, 24, 112, 156, 86, 42, 180]
+
+Press Enter to continue...
+
+==========================================================
+Please enter your choice: 6
+
+--- Sort Data ---
+1. Ascending
+2. Descending
+Enter your choice: 1
+
+1D Data sorted in Ascending order (list.sort() in-place):
+   [12, 21, 34, 43, 56, 78, 90]
+
+Press Enter to continue...
+
+==========================================================
+Please enter your choice: 7
+
+Dataset Statistics (multiple return values):
+  Minimum value     : 12
+  Maximum value     : 90
+  Sum of all values : 334
+  Average value     : 47.71
+
+Press Enter to continue...
+
+==========================================================
+Please enter your choice: 8
+
+--- Advanced Operations ---
+1. Demonstrate *args
+2. Demonstrate **kwargs (Dataset Summary)
+3. Find duplicates
+4. Find unique values
+5. Show function documentation (__doc__)
+6. Go Back
+Enter your choice: 1
+
+--- *args Demonstration ---
+Number of arguments received: 6
+  Argument 1: 10
+  Argument 2: 20
+  Argument 3: 30
+  Argument 4: 'hello'
+  Argument 5: 3.14
+  Argument 6: True
+Sum of numeric arguments: 63.14
+
+--- Advanced Operations ---
+Enter your choice: 2
+
+--- **kwargs Demonstration ---
+  total_values: 7
+  overall_mean: 47.71
+  is_2d: False
+  shape: (7,)
+  data_source: User input / sample
+
+--- Advanced Operations ---
+Enter your choice: 6
+
+Press Enter to continue...
+
+==========================================================
+Please enter your choice: 11
+
+Thank you for using the Data Analyzer and Transformer Program. Goodbye!
